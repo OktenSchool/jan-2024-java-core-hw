@@ -1,4 +1,4 @@
-package org.okten.task1;
+package org.okten.hw3.task1;
 
 public class Main {
     public static void main(String[] args) {

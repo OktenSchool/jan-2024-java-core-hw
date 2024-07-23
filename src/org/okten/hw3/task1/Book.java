@@ -1,12 +1,12 @@
-package org.okten.task1;
+package org.okten.hw3.task1;
 
-public class Magazine implements Printable{
+public class Book implements Printable{
     private String name;
 
-    public Magazine() {
+    public Book() {
     }
 
-    public Magazine(String name) {
+    public Book(String name) {
         this.name = name;
     }
 
@@ -20,13 +20,13 @@ public class Magazine implements Printable{
 
     @Override
     public String toString() {
-        return "Magazine{" +
+        return "Book{" +
                 "name='" + name + '\'' +
                 '}';
     }
 
     @Override
     public void print() {
-        System.out.println("Magazine: " + this.name);
+        System.out.println("Book: " + this.name);
     }
 }

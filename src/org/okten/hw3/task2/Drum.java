@@ -1,4 +1,4 @@
-package org.okten.task2;
+package org.okten.hw3.task2;
 
 public class Drum implements Instrument {
     private int size;
